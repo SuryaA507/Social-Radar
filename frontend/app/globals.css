@@ -1,0 +1,223 @@
+@import "tailwindcss";
+
+:root {
+  --background: #061019;
+  --foreground: #edf7fb;
+  --card-bg: rgba(10, 22, 31, 0.72);
+  --card-border: rgba(120, 235, 255, 0.14);
+  --highlight-cyan: #5ce1ff;
+  --highlight-green: #7dffb3;
+  --highlight-amber: #f8d36d;
+  --muted: #8ca8b5;
+  --danger: #ff6b6b;
+  --grid-line: rgba(92, 225, 255, 0.08);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  
+  --color-card: var(--card-bg);
+  --color-card-border: var(--card-border);
+  --color-cyan-glow: var(--highlight-cyan);
+  --color-green-glow: var(--highlight-green);
+  --color-amber-glow: var(--highlight-amber);
+  --color-muted: var(--muted);
+  --color-danger: var(--danger);
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  background-image:
+    radial-gradient(circle at top left, rgba(92, 225, 255, 0.16), transparent 32%),
+    radial-gradient(circle at top right, rgba(125, 255, 179, 0.08), transparent 20%),
+    linear-gradient(180deg, #081520 0%, #061019 50%, #040a11 100%);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 72px 72px;
+  mask-image: radial-gradient(circle at center, black 45%, transparent 95%);
+  opacity: 0.5;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(92, 225, 255, 0.05), transparent 18%),
+    radial-gradient(circle at center, transparent 60%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+.glass-panel {
+  background: linear-gradient(180deg, rgba(14, 29, 40, 0.82), rgba(7, 17, 26, 0.72));
+  border: 1px solid var(--card-border);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 12px 40px rgba(0, 0, 0, 0.32),
+    0 0 0 1px rgba(92, 225, 255, 0.03);
+  backdrop-filter: blur(18px);
+}
+
+.panel-header {
+  border-bottom: 1px solid rgba(120, 235, 255, 0.1);
+}
+
+.tactical-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.scan-line {
+  position: relative;
+  overflow: hidden;
+}
+
+.scan-line::after {
+  content: "";
+  position: absolute;
+  inset: -20% auto auto -20%;
+  width: 140%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(92, 225, 255, 0.75), transparent);
+  box-shadow: 0 0 18px rgba(92, 225, 255, 0.4);
+  animation: sweep 8s linear infinite;
+}
+
+.data-bar {
+  position: relative;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.data-bar > span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, rgba(92, 225, 255, 0.32), rgba(125, 255, 179, 0.85));
+  box-shadow: 0 0 22px rgba(92, 225, 255, 0.28);
+}
+
+.radar-ring {
+  position: absolute;
+  border: 1px solid rgba(92, 225, 255, 0.15);
+  border-radius: 999px;
+  animation: pulse-ring 5s ease-out infinite;
+}
+
+.chart-grid {
+  background-image:
+    linear-gradient(rgba(92, 225, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(92, 225, 255, 0.06) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+.fade-up {
+  animation: fade-up 0.8s ease-out both;
+}
+
+/* Custom Scrollbar for better UI */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--card-border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
+@keyframes sweep {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(520px);
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.92);
+    opacity: 0.18;
+  }
+  70% {
+    transform: scale(1.05);
+    opacity: 0.08;
+  }
+  100% {
+    transform: scale(1.12);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Leaflet Tactical Popup Overrides */
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: var(--card-bg) !important;
+  border: 1px solid var(--card-border) !important;
+  color: var(--foreground) !important;
+  backdrop-filter: blur(8px) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+}
+
+.leaflet-popup-tip {
+  border-top: none !important;
+  border-left: none !important;
+}
+
+.tactical-popup .leaflet-popup-content {
+  margin: 12px !important;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  color: var(--muted) !important;
+}
+.leaflet-container a.leaflet-popup-close-button:hover {
+  color: var(--highlight-cyan) !important;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+

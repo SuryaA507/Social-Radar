@@ -1,0 +1,2615 @@
+⨯ ./app/(workspace)/regions/page.tsx
+Error:   x Expression expected
+     ,-[D:\GDELT -  mirror\Social Radar\frontend\app\(workspace)\regions\page.tsx:213:1]
+ 210 |     </div>
+ 211 |   );
+ 212 | }
+ 213 | }
+     : ^
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/(workspace)/regions/page.tsx
+⨯ ./app/(workspace)/regions/page.tsx
+Error:   x Expression expected
+     ,-[D:\GDELT -  mirror\Social Radar\frontend\app\(workspace)\regions\page.tsx:213:1]
+ 210 |     </div>
+ 211 |   );
+ 212 | }
+ 213 | }
+     : ^
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/(workspace)/regions/page.tsx
+[browser] Uncaught ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   x Expression expected
+     ,-[D:\GDELT -  mirror\Social Radar\frontend\app\(workspace)\regions\page.tsx:213:1]
+ 210 |     </div>
+ 211 |   );
+ 212 | }
+ 213 | }
+     : ^
+     `----
+
+
+Caused by:
+    Syntax Error
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⨯ ./app/(workspace)/regions/page.tsx
+Error:   x Expression expected
+     ,-[D:\GDELT -  mirror\Social Radar\frontend\app\(workspace)\regions\page.tsx:213:1]
+ 210 |     </div>
+ 211 |   );
+ 212 | }
+ 213 | }
+     : ^
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/(workspace)/regions/page.tsx
+⨯ ./app/(workspace)/regions/page.tsx
+Error:   x Expression expected
+     ,-[D:\GDELT -  mirror\Social Radar\frontend\app\(workspace)\regions\page.tsx:213:1]
+ 210 |     </div>
+ 211 |   );
+ 212 | }
+ 213 | }
+     : ^
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/(workspace)/regions/page.tsx
+[browser] Uncaught ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   x Expression expected
+     ,-[D:\GDELT -  mirror\Social Radar\frontend\app\(workspace)\regions\page.tsx:213:1]
+ 210 |     </div>
+ 211 |   );
+ 212 | }
+ 213 | }
+     : ^
+     `----
+
+
+Caused by:
+    Syntax Error
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect (hooks\useTrendFeed.ts:45:10)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect (hooks\useTrendFeed.ts:45:10)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect (hooks\useTrendFeed.ts:45:10)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect (hooks\useTrendFeed.ts:45:10)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect (hooks\useTrendFeed.ts:45:10)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect (hooks\useTrendFeed.ts:45:10)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+[browser] Failed to fetch trend feed TypeError: Failed to fetch
+    at fetchTrendFeed (lib\trends.ts:137:26)
+    at useTrendFeed.useEffect.refresh (hooks\useTrendFeed.ts:27:48)
+    at useTrendFeed.useEffect.intervalId (hooks\useTrendFeed.ts:47:12)
+  135 |   }
+  136 |
+> 137 |   const response = await fetch(`${apiBase}${endpoint}`, { cache: "no-store" });
+      |                          ^
+  138 |   if (!response.ok) {
+  139 |     throw new Error(`Trend fetch failed with ${response.status}`);
+  140 |   } (hooks\useTrendFeed.ts:33:17)
+⚠ Found a change in next.config.mjs. Restarting the server to apply the changes...
+⚠ Found a change in next.config.mjs. Restarting the server to apply the changes...
+^C^C

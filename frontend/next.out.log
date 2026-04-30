@@ -1,0 +1,108 @@
+
+> frontend@0.1.0 dev
+> next dev --webpack
+
+▲ Next.js 16.2.4 (webpack)
+- Local:         http://localhost:3000
+- Network:       http://10.83.224.44:3000
+✓ Ready in 15.8s
+
+○ Compiling / ...
+ GET / 200 in 3.4s (next.js: 2.3s, application-code: 1039ms)
+ GET / 200 in 641ms (next.js: 423ms, application-code: 218ms)
+ GET / 200 in 77ms (next.js: 7ms, application-code: 70ms)
+ GET / 200 in 146ms (next.js: 9ms, application-code: 138ms)
+ GET / 200 in 91ms (next.js: 7ms, application-code: 84ms)
+ GET / 200 in 72ms (next.js: 8ms, application-code: 64ms)
+ GET / 200 in 82ms (next.js: 7ms, application-code: 75ms)
+○ Compiling /dashboard ...
+ GET /dashboard 200 in 4.1s (next.js: 3.7s, application-code: 358ms)
+ GET /dashboard 200 in 159ms (next.js: 15ms, application-code: 144ms)
+ GET /dashboard 200 in 392ms (next.js: 195ms, application-code: 197ms)
+ GET /dashboard 200 in 92ms (next.js: 12ms, application-code: 81ms)
+ GET /dashboard 200 in 98ms (next.js: 9ms, application-code: 89ms)
+ GET /dashboard 200 in 125ms (next.js: 14ms, application-code: 112ms)
+○ Compiling /trends ...
+ GET /trends 200 in 5.6s (next.js: 5.1s, application-code: 458ms)
+ GET /trends 200 in 370ms (next.js: 14ms, application-code: 356ms)
+ GET /trends 200 in 262ms (next.js: 17ms, application-code: 246ms)
+ GET /trends 200 in 158ms (next.js: 14ms, application-code: 144ms)
+ GET /regions 200 in 3.1s (next.js: 2.9s, application-code: 268ms)
+ GET /trends 200 in 232ms (next.js: 52ms, application-code: 180ms)
+ GET /regions 200 in 242ms (next.js: 47ms, application-code: 195ms)
+ GET /historical 200 in 2.5s (next.js: 2.0s, application-code: 481ms)
+ GET /historical 200 in 336ms (next.js: 29ms, application-code: 308ms)
+ GET /ai-analyst 200 in 3.7s (next.js: 3.3s, application-code: 327ms)
+ GET /ai-analyst 200 in 119ms (next.js: 12ms, application-code: 107ms)
+ GET /dashboard 200 in 118ms (next.js: 40ms, application-code: 78ms)
+ GET /dashboard 200 in 876ms (next.js: 14ms, application-code: 861ms)
+ GET /dashboard 200 in 468ms (next.js: 333ms, application-code: 135ms)
+ GET /dashboard 200 in 454ms (next.js: 37ms, application-code: 418ms)
+ GET /dashboard 200 in 100ms (next.js: 11ms, application-code: 90ms)
+ GET /dashboard 200 in 104ms (next.js: 11ms, application-code: 92ms)
+ GET /dashboard 200 in 403ms (next.js: 262ms, application-code: 141ms)
+ GET /dashboard 200 in 720ms (next.js: 16ms, application-code: 705ms)
+ GET /historical 200 in 167ms (next.js: 56ms, application-code: 111ms)
+ GET /historical 200 in 239ms (next.js: 24ms, application-code: 215ms)
+○ Compiling /_error ...
+ GET /historical 500 in 22.7s (next.js: 21.4s, application-code: 1304ms)
+ GET /historical 500 in 126ms (next.js: 10ms, application-code: 115ms)
+ GET /historical 500 in 125ms (next.js: 10ms, application-code: 114ms)
+ GET /historical 500 in 50ms (next.js: 11ms, application-code: 39ms)
+ GET /historical 500 in 50ms (next.js: 15ms, application-code: 35ms)
+ GET /historical 500 in 1775ms
+ GET /historical 500 in 326ms
+○ Compiling /_error ...
+ GET /historical 500 in 2.2s
+ GET /historical 500 in 411ms (next.js: 236ms, application-code: 175ms)
+ GET /historical 500 in 298ms
+ GET /historical 200 in 4.0s (next.js: 3.3s, application-code: 669ms)
+ GET /historical 200 in 138ms (next.js: 8ms, application-code: 129ms)
+ GET /historical 200 in 82ms (next.js: 9ms, application-code: 72ms)
+ GET /historical 200 in 75ms (next.js: 8ms, application-code: 67ms)
+ GET /historical 200 in 508ms (next.js: 351ms, application-code: 156ms)
+ GET /historical 200 in 1170ms (next.js: 22ms, application-code: 1148ms)
+ GET /dashboard 200 in 1047ms (next.js: 72ms, application-code: 974ms)
+ GET /dashboard 200 in 418ms (next.js: 238ms, application-code: 181ms)
+ GET /dashboard 200 in 1902ms (next.js: 7ms, application-code: 1895ms)
+ GET /dashboard 200 in 424ms (next.js: 211ms, application-code: 212ms)
+ GET /dashboard 200 in 74ms (next.js: 9ms, application-code: 65ms)
+ GET /dashboard 200 in 116ms (next.js: 8ms, application-code: 108ms)
+ GET /dashboard 200 in 83ms (next.js: 11ms, application-code: 73ms)
+ GET /dashboard 200 in 117ms (next.js: 17ms, application-code: 101ms)
+ GET /dashboard 200 in 413ms (next.js: 250ms, application-code: 163ms)
+ GET /dashboard 200 in 136ms (next.js: 18ms, application-code: 117ms)
+ GET /dashboard 200 in 111ms (next.js: 13ms, application-code: 98ms)
+ GET /dashboard 200 in 84ms (next.js: 7ms, application-code: 77ms)
+ GET /dashboard 200 in 225ms (next.js: 74ms, application-code: 151ms)
+ GET /dashboard 200 in 95ms (next.js: 6ms, application-code: 89ms)
+ GET /dashboard 200 in 67ms (next.js: 8ms, application-code: 60ms)
+ GET /dashboard 200 in 68ms (next.js: 7ms, application-code: 61ms)
+ GET /dashboard 200 in 486ms (next.js: 15ms, application-code: 471ms)
+ GET /search?q=ukrain 200 in 3.0s (next.js: 2.8s, application-code: 198ms)
+ GET /search?q=ukrain 200 in 252ms (next.js: 7ms, application-code: 245ms)
+ GET /search?q=ukrain 200 in 186ms (next.js: 10ms, application-code: 176ms)
+ GET /search?q=ukrain 200 in 132ms (next.js: 6ms, application-code: 126ms)
+ GET /search?q=ukrain 200 in 79ms (next.js: 7ms, application-code: 73ms)
+ GET /dashboard 200 in 803ms (next.js: 255ms, application-code: 548ms)
+ GET /dashboard 200 in 430ms (next.js: 263ms, application-code: 168ms)
+ GET /dashboard 200 in 325ms (next.js: 203ms, application-code: 121ms)
+ GET /dashboard 200 in 337ms (next.js: 208ms, application-code: 129ms)
+ GET /dashboard 200 in 1314ms (next.js: 102ms, application-code: 1212ms)
+○ Compiling /trends ...
+ GET /trends 200 in 12.2s (next.js: 11.9s, application-code: 268ms)
+ GET /dashboard 200 in 560ms (next.js: 54ms, application-code: 506ms)
+▲ Next.js 16.2.4 (webpack)
+- Local:         http://localhost:3000
+- Network:       http://10.83.224.44:3000
+✓ Ready in 1234ms
+
+▲ Next.js 16.2.4 (webpack)
+- Local:         http://localhost:3000
+- Network:       http://10.83.224.44:3000
+✓ Ready in 907ms
+
+○ Compiling /dashboard ...
+ GET /dashboard 200 in 50s (next.js: 48s, application-code: 1554ms)
+ GET /dashboard 200 in 50s (next.js: 47s, application-code: 3.3s)
+ GET /dashboard 200 in 534ms (next.js: 281ms, application-code: 253ms)
