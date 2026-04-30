@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-dotenv
+praw
+requests
+feedparser
+apscheduler
+python-jose[cryptography]
+passlib[bcrypt]
+pyjwt
+fpdf2
